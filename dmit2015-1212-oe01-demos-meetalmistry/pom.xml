@@ -77,6 +77,9 @@ under the License.
         <scope>import</scope>
         <type>pom</type>
       </dependency>
+
+
+
       <dependency>
         <groupId>org.junit</groupId>
         <artifactId>junit-bom</artifactId>
@@ -92,6 +95,14 @@ under the License.
       <groupId>jakarta.platform</groupId>
       <artifactId>jakarta.jakartaee-api</artifactId>
     </dependency>
+
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.22</version>
+      <scope>provided</scope>
+    </dependency>
+
     <dependency>
       <groupId>org.jboss.arquillian.junit5</groupId>
       <artifactId>arquillian-junit5-container</artifactId>
